@@ -1,7 +1,10 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
 }
+/*font-size set to 16 for all fonts*/
+/* Changed the background color to white and text color to black*/
 
 nav {
   background-color: rgba(0,0,0,.5);
@@ -9,7 +12,9 @@ nav {
   position: fixed;
   width: 100%;
 }
-
+figcaption{
+  font-size: 13px;}
+}
 .logo {
   margin: 20px;
   width: 100px;
@@ -49,4 +54,44 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+h1{
+  font-size: 40px;
+  line-height: 1.5;
+}
+h3{
+  font-size: 20px;
+  line-height: 1;
+  width: 480px;
+}
+/* limited the width to 480 px to align with the rest of the page */
+.author{
+  font-size: 14px;
+  line-height: 2;
+  font-weight: bold;
+
+
+}
+/*changed the font-size and line height for h1,h3 and .author to give prominence to various elements*/
+.story-text{
+  width:480px;
+}
+/* changed the width for better readability*/
+
+p{
+  line-height: 1.2;
+}
+/* changed the line-height for all paragragh elements for better readability */
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+/* changed the text-decoartion to none and changed view aspects to suit the overall layout of the blog */
+a:hover{
+  color:black;
 }
